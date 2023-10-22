@@ -1,5 +1,5 @@
 function chooseMeme() {
-    return "memes/meme" + Math.floor(Math.random() * 15) + ".png";
+    return Math.floor(Math.random() * 16) + ".png";
 }
 
 document.getElementById("img").src = chooseMeme();
